@@ -122,7 +122,7 @@ Para executar programa com parâmetros via linha de comando deve ser seguida a s
   
       #Execução da busca linear com 2000 elementos
       ./bin/run 2000 1
- 
+ ![Linear] (.Plots/Linearsearch_plot.pdf)
       #Execução de várias buscas com 5000 elementos
       ./bin/run 5000 1 2 3 4 5
 ```
@@ -165,7 +165,6 @@ itr lsearch( itr first, itr last, value_type value ){
 
    Esse gráfico mostra o tempo de milissegundos que o algoritmo levou para ser executado versus o tamanho do vetor em que a busca iterou.O gráfico gerado com coletando mil amostras de tempo com a busca linear sobre um vetor máximo de 400.000.000 elementos. Podemos observar alguns picos devido o sistema cuidar de outros processos enquanto faz a medição.
 
-![Linear] (.Plots/Linearsearch_plot.pdf)
 
 ### Busca binária Iterativa
 
