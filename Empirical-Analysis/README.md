@@ -30,7 +30,7 @@ Disciplina: Estrutura de Dados Básicas I, Universidade Federal do Rio Grande do
  + [Algoritmos lineares](#algoritmos-lineares)
  + [Recursão vs Iteração](#recursão-vs-iteração)
  + [Tamanho da partição e desempenho](#tamanho-da-partição-e-desempenho)
- + [Algoritmos de Classes de complexidade diferentes](#algoritmos-de-classe-de-complexidade-diferentes)
+ + [Algoritmos de Classes de complexidade diferentes](#algoritmos-de-classes-de-complexidade-diferentes)
  + [O pior caso da busca fibonacci](#O-pior-caso-da-busca-fibonacci)
 
 ## Introdução
@@ -165,7 +165,7 @@ itr lsearch( itr first, itr last, value_type value ){
 
    Esse gráfico mostra o tempo de milissegundos que o algoritmo levou para ser executado versus o tamanho do vetor em que a busca iterou.O gráfico gerado com coletando mil amostras de tempo com a busca linear sobre um vetor máximo de 400.000.000 elementos. Podemos observar alguns picos devido o sistema cuidar de outros processos enquanto faz a medição.
 
-![1552962686316](/home/dudubezerra/.config/Typora/typora-user-images/1552962686316.png)
+![Linear] (.Plots/Linearsearch_plot.pdf)
 
 ### Busca binária Iterativa
 
