@@ -165,6 +165,7 @@ itr lsearch( itr first, itr last, value_type value ){
 
    Esse gráfico mostra o tempo de milissegundos que o algoritmo levou para ser executado versus o tamanho do vetor em que a busca iterou.O gráfico gerado com coletando mil amostras de tempo com a busca linear sobre um vetor máximo de 400.000.000 elementos. Podemos observar alguns picos devido o sistema cuidar de outros processos enquanto faz a medição.
 
+![LinearSearch](Plots/PNG/Linearsearch_plot.png)
 
 ### Busca binária Iterativa
 
@@ -206,7 +207,7 @@ itr bsearch ( itr first, itr last, value_type value ){
 
    Esse gráfico mostra o tempo de milissegundos que o algoritmo levou para ser executado versus o tamanho do vetor em que a busca iterou.O gráfico gerado com coletando mil amostras de tempo com a busca binária sobre um vetor máximo de 400.000.000 elementos. Podemos observar alguns picos devido o sistema cuidar de outros processos enquanto faz a medição.
 
-![1552964196026](/home/dudubezerra/.config/Typora/typora-user-images/1552964196026.png)
+![BinarySearch](Plots/PNG/BinarySearch_plot.png)
 
 #### Busca binária recursiva
 
@@ -266,7 +267,7 @@ itr bsearch_r ( itr first, itr last, value_type value ){
 
    Esse gráfico mostra o tempo de milissegundos que o algoritmo levou para ser executado versus o tamanho do vetor em que a busca iterou.O gráfico gerado com coletando mil amostras de tempo com a busca binária recursiva sobre um vetor máximo de 400.000.000 elementos. Podemos observar alguns picos devido o sistema cuidar de outros processos enquanto faz a medição.
 
-![1552964791900](/home/dudubezerra/.config/Typora/typora-user-images/1552964791900.png)
+![RecursiveBinarySearch](Plots/PNG/RecursiveBinarySearch_plot.png)
 
 
 
@@ -324,7 +325,7 @@ itr tsearch ( itr first, itr last, value_type value ){
 
    Esse gráfico mostra o tempo de milissegundos que o algoritmo levou para ser executado versus o tamanho do vetor em que a busca iterou.O gráfico gerado com coletando mil amostras de tempo com a busca ternária sobre um vetor máximo de 400.000.000 elementos. Podemos observar alguns picos devido o sistema cuidar de outros processos enquanto faz a medição.
 
-![1552966103347](/home/dudubezerra/.config/Typora/typora-user-images/1552966103347.png)
+![TernarySearch](Plots/PNG/TernarySearch_plot.png)
 
 ### Busca ternária Recursiva
 
@@ -398,7 +399,7 @@ itr tsearch_r ( itr first, itr last, value_type value ){
 
 
 
-![1552966516930](/home/dudubezerra/.config/Typora/typora-user-images/1552966516930.png)
+![RecursiveTernaySearch](Plots/PNG/RecusiveTernarySearch_plot.png)
 
 ### Busca por pulo
 
@@ -436,7 +437,7 @@ itr jsearch ( itr first, itr last, value_type value ){
 
    Esse gráfico mostra o tempo de milissegundos que o algoritmo levou para ser executado versus o tamanho do vetor em que a busca iterou.O gráfico gerado com coletando mil amostras de tempo com a busca por pulo sobre um vetor máximo de 400.000.000 elementos. Podemos observar alguns picos devido o sistema cuidar de outros processos enquanto faz a medição.
 
-![1552967147710](/home/dudubezerra/.config/Typora/typora-user-images/1552967147710.png)
+![JumpSearch](Plots/PNG/JumpSearch_plot.png)
 
   #### Busca fibonacci
 
@@ -500,7 +501,7 @@ itr fsearch ( itr first, itr last, value_type value ){
 
    Esse gráfico mostra o tempo de milissegundos que o algoritmo levou para ser executado versus o tamanho do vetor em que a busca iterou.O gráfico gerado com coletando mil amostras de tempo com a busca fibonacci sobre um vetor máximo de 400.000.000 elementos. Podemos observar alguns picos devido o sistema cuidar de outros processos enquanto faz a medição.
 
-![1552968694081](/home/dudubezerra/.config/Typora/typora-user-images/1552968694081.png)
+![FibonacciSearch](Plots/PNG/FibonacciSearch_plot.png)
 
 ### Cenários de simulação
 
@@ -519,7 +520,7 @@ itr fsearch ( itr first, itr last, value_type value ){
 
 ##### Gráficos específicos:
 
-![1553023917960](/home/dudubezerra/.config/Typora/typora-user-images/1553023917960.png)
+![LinearVsJump](Plots/PNG/LinearVsJump.png)
 
 ​		(No gráfico acima foi utilizado um suavizador de linhas para ajudar na visualização)
 
@@ -539,7 +540,7 @@ itr fsearch ( itr first, itr last, value_type value ){
 
 #### Gráficos específicos
 
-![1553027382176](/home/dudubezerra/.config/Typora/typora-user-images/1553027382176.png)
+![RecurVsIter](Plots/PNG/IterVsRecur.png)
 
 ​		(No gráfico acima foi utilizado um suavizador de linhas para ajudar na visualização)
 
@@ -551,7 +552,7 @@ itr fsearch ( itr first, itr last, value_type value ){
 
    "De que forma o tamanho da partição pode influenciar o desempenho dem uma estratégia de busca por divisão e conquista?"
 
-![1553023439664](/home/dudubezerra/.config/Typora/typora-user-images/1553023439664.png)
+![BIN_TER_FIB](Plots/PNG/Bin_Ter_Fib.png)
 
 ​		(No gráfico acima foi utilizado um suavizador de linhas para ajudar na visualização)
 
@@ -572,7 +573,7 @@ a se diferenciar?”
 
 
 
-![1553029480079](/home/dudubezerra/.config/Typora/typora-user-images/1553029480079.png)
+![LinVsBin](Plots/PNG/LinXBin.png)
 
 #### Conclusão
 
