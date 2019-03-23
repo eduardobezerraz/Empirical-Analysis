@@ -595,5 +595,4 @@ a se diferenciar?”
 
 #### Conclusão 
 
-​    No primeiro caso procuramos por um número à direita do arranjo e no segundo procuramos por um número à esquerda. Podemos observar que quando procuramos números à esquerda em arranjos pequenos, levamos mais tempo do que o esperado com a busca fibonacci.
-
+​    No primeiro caso procuramos por um número à direita do arranjo e no segundo procuramos por um número à esquerda. Podemos observar que quando procuramos números à direita levamos mais tempo, pois estamos sempre eliminado a menor parte do arranjo (Aproximadamente 1/3). Já quando procuramos à esquerda o tempo diminui pois eliminamos sempre a maior parte do arranjo (Aproximadamente 2/3).
