@@ -580,4 +580,20 @@ a se diferenciar?”
    As busca de complexidade diferentes tem diferenças gritantes em seu desempenho, como observado no gráfico.
 
    A partir de aproximadamente 15 elementos as buscas começas a divergir, enquanto a linear só tende a subir, a binária a ser próxima de uma linha constante.
+   
+   ### O pior caso da busca fibonacci
+
+ 	“Existem categorias diferentes de pior caso para a busca Fibonacci?”
+
+##### Gráficos 
+
+![FibRight](Plots/PNG/FibonacciSearch_plot.png)
+
+   
+
+![FibLeft](Plots/PNG/FibonacciLeft.png)
+
+#### Conclusão 
+
+​    No primeiro caso procuramos por um número à direita do arranjo e no segundo procuramos por um número à esquerda. Podemos observar que quando procuramos números à esquerda em arranjos pequenos, levamos mais tempo do que o esperado com a busca fibonacci.
 
