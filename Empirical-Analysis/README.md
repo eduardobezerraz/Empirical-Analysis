@@ -103,12 +103,12 @@ Para executar programa com parâmetros via linha de comando deve ser seguida a s
 + Número do algoritmo que deseja executar 
    O número do algoritmo que deseja executar deve ser um inteiro entre [1,7], pois como o projeto se dispõe de 7 algoritmos, cada numéro representa um deles.
    + 1 = Busca linear.
-     2 = Busca Binária iterativa.
-     3 = Busca Binária Recursiva.
-     4 = Busca Ternária iterativa.
-     5 = Busca Ternária Recursiva.
-     6 = Jump Search.
-     7 = Busca fibonacci.
+   + 2 = Busca Binária iterativa.
+   + 3 = Busca Binária Recursiva.
+   + 4 = Busca Ternária iterativa.
+   + 5 = Busca Ternária Recursiva.
+   + 6 = Jump Search.
+   + 7 = Busca fibonacci.
 + Defaults
    Caso o cliente não forneça nenhum parâmetro por linha de comando o programa executará todos os algoritmos num vetor no seu tamanho máximo;
    Caso o cliente ofereça apenas o tamanho final do arranjo o programa executará todos os algoritmos com o tamnho final fornecido.
