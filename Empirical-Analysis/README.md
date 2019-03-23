@@ -97,10 +97,10 @@ Para executar programa com parâmetros via linha de comando deve ser seguida a s
 ```bash
 ./bin/run {Tamanho final do arranjo} {Número do algoritmo que deseja executar}
 ```
-+ Tamanho final do arranjo
+ + **Tamanho final do arranjo** : 
    O tamanho final do arranjo deve ser um inteiro entre [1000,400000000], pois o número de amostras que estipulei para gerar um gráfico visualmente aceitável, e que não demorassem muito tempo para serem escritas num arquivo foi de 1000. E 400000000 devido a limitação do meu sistema em alocar um vetor dinamicamente sem retornar um erro de *bad_alloc*.
    Caso o tamanho final do arranjo seja menor que mil ou maior que 400000000, o cliente receberá uma menssagem de erro e o programa não fará as buscas.
-+ Número do algoritmo que deseja executar 
++ **Número do algoritmo que deseja executar**:  
    O número do algoritmo que deseja executar deve ser um inteiro entre [1,7], pois como o projeto se dispõe de 7 algoritmos, cada numéro representa um deles.
    + 1 = Busca linear.
    + 2 = Busca Binária iterativa.
@@ -109,10 +109,10 @@ Para executar programa com parâmetros via linha de comando deve ser seguida a s
    + 5 = Busca Ternária Recursiva.
    + 6 = Jump Search.
    + 7 = Busca fibonacci.
-+ Defaults
++ **Defaults**: 
    Caso o cliente não forneça nenhum parâmetro por linha de comando o programa executará todos os algoritmos num vetor no seu tamanho máximo;
    Caso o cliente ofereça apenas o tamanho final do arranjo o programa executará todos os algoritmos com o tamnho final fornecido.
-+ Algumas possiveis entradas de execução em linha de comando:
++ **Algumas possiveis entradas de execução em linha de comando:**
 ```bash
       #Execução default
       ./bin/run
